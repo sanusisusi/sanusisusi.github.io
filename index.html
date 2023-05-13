@@ -22,9 +22,9 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Works</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <!--<li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>-->
                     </ul>
                 </div>
@@ -39,9 +39,10 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Sanusi</span><br>Web Developer</h1>
-                    <h3 class="home__status">(Software Engineer | React Developer)</h3>
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Sanusi</span><br>Developer</h1>
+                    <h3 class="home__status">(Software Engineer | JavaScript Developer)</h3>
                     <a href="#contact" class="button" onclick="myFunction();" value="switch">Contact</a>
+                    <a href="assets/img/CV-SANUSI.pdf" class="button" download>Download Resume</a>
                 </div>
 
                 <div class="home__social">
@@ -66,9 +67,25 @@
                 </div>
             </section>
 
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/IMG.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">About Me</h2>
+                        <p class="about__text">A Software Engineer | Computer Scientist, born and live in Kaduna Nigeria.<br/> My journey as a developer started from Bayero University Kano, where i studied Computer Science of which i was curious of how the world is driven by computing.<br/> So over the past 5 years, i dedicated my time fully to learning the top in-demand skills and knowledge of computing and software development.<br/><br/><b>Work Experience:</b><br/>Over the years, i have beeen working as a programmer on personal projects. <br/>Africas Talking Developer Community Lead Kaduna Nigeria.</br>Software Development (Frontend) Team lead at Uniflow.</br>Intern at kaduna electric. </br>Web developer at Nabature e-Systems.<br/><br/><b>Hobbies:</b><br/> I love Programming, video gaming, watching Anime and working with team of developers.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
             <!--===== WORK =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Works & Projects Urls</h2>
+                <h2 class="section-title">Recent Works & Urls</h2>
 
                 <div class="work__container bd-grid">
                     <a href="https://hotel-room-booking-632e7.web.app" class="work__img">
@@ -98,7 +115,6 @@
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
                         <p class="skills__text">As a Web Developer here are some of my skills.</p>
                         <div class="skills__data">
                             <div class="skills__names">
@@ -163,29 +179,12 @@
                         
                     </div>
                     <div>              
-                        <img src="assets/img/work.jpg" alt="" class="skills__img">
                         <div>
                             <h2 class="skills__subtitle">Other Skills include:</h2>
-                            <p class="skills-p">Front-end development, Ajax, Axios, CSS Animations, Bootstrap, SASS, JSON, npm, Nodejs, redux.js, D3.js, Google API, Rest API, Git, Firebase, Express.js, TypeScript, Next.js, MongoDB.</p>
+                            <p class="skills-p">Front-end development, Ajax, Axios, CSS Animations, Bootstrap, PHP, SASS, JSON, npm, Nodejs, redux.js, D3.js, Google API, Rest API, Git, Firebase, Express.js, TypeScript, Next.js, MongoDB, Socket.io.</p>
                         </div>
                     </div>
                    
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about1.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">About Me</h2>
-                        <p class="about__text">A Software Engineer (React Developer) | Computer Scientist, born and live in Kaduna Nigeria.<br/> My journey as a developer started from Bayero University Kano, where i studied Computer Science of which i was curious of how the world is driven by computing.<br/> So over the past 5 years, i dedicated my time fully to learning the top in-demand skills and knowledge of computing and software development.<br/><br/><b>Work Experience:</b><br/>Over the years, i have beeen working as a programmer, Intern at kaduna electric, Software developer at Nabature e-Systems.<br/><br/><b>Hobbies:</b><br/> I love Programming, video gaming, watching Anime and working with team of developers.</p>           
-                    </div>                                   
                 </div>
             </section>
 
@@ -217,7 +216,6 @@
             </div>
             <p class="footer__copy">&#169; 2022 SanusiSusi</p>
         </footer>
-
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
